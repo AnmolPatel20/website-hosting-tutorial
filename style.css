@@ -1,54 +1,47 @@
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7); /* dark overlay for clarity */
-    padding: 30px;
-    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 70px;
-    margin-bottom: 20px;
+    color: #333;
 }
 
-p {
-    font-size: 24px;
-    margin-bottom: 30px;
+.card {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
 }
 
-.yt-btn {
-    background-color: red;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 8px;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease;
+h2 {
+    margin-bottom: 15px;
+}
+
+.btn {
     display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
 }
 
-.yt-btn:hover {
-    background-color: darkred;
-}
-
-.social-text {
-    margin-top: 15px;
-    font-size: 18px;
-    color: yellow;
-    font-weight: bold;
+.btn:hover {
+    background: #005bb5;
 }
