@@ -5,7 +5,7 @@ Hosting a Website Using GitHub Pages
 This repository contains the source code and instructions from my YouTube tutorial on how to host a website for free using GitHub Pages.
 
 📺Watch the full tutorial here: https://youtu.be/IZYXwBqbqi8?feature=shared
-  Click Here to See Live Demo: https://anmolpatel20.github.io/website-hosting-tutorial/
+Click Here to See Live Demo: https://anmolpatel20.github.io/website-hosting-tutorial/
 
 🚀 What You’ll Learn
 
